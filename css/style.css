@@ -1,0 +1,105 @@
+body{
+    font-family: Verdana, "fira sans";
+    font-size: 12pt;
+}
+header{
+    Font-size: 36pt;
+    font-family: Montserrat;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    font-size:12pt;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8f140b;
+}
+
+nav li a {
+   display: flex;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #e98074;
+}
+
+nav li a.active{
+    color: #8f140b;
+    background-color: white;
+    font-weight: bold;
+}
+
+h1{
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+
+h2{
+    font-size: 14pt;
+    font-family: Verdana, "fira sans";
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+main{
+    margin: 10px 20px 10px 20px;
+}
+
+main h1{
+    font-size: 28pt;
+}
+
+main h2{
+    text-align: left;
+    font-weight: bold;
+}
+
+img{
+    width: 50%;
+    border-style: double;
+    border-width: 9px;
+    border-color: #e85a4f;
+    border-radius: 5%;
+    padding: 3px;
+    margin-top: 20px;
+}
+
+img:hover{
+    border-style: solid;
+    border-width: 18px;
+    transition: 1s ease;
+}
+
+img:nth-child(2n){
+    border-style: groove;
+}
+
+img:nth-child(2n):hover{
+    border-style: groove;
+    border-width: 18px;
+    transition: 0.5s ease;
+}
+
+div:nth-child(2n) img{
+    border: 9px double #e85a4f;
+}
+
+div:nth-child(2n) img:hover{
+    border: 18px solid #e85a4f;
+}
+img#womens_march{
+    width: 100%;
+}
+
+footer{
+    background-color:#eca19c;
+    padding: 10px 0px 20px 0px;
+    color: black;
+    text-align: center;
+}
